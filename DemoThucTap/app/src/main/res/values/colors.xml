@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#f2f2f5</color>
+    <color name="colorAccent">#FF83FA</color>
+    <color name="blue">#b01e3b9b</color>
+    <color name="mau1">#ead5dc</color>
+    <color name="mau2">#CD9B9B</color>
+    <color name="mau3">#FFD700</color>
+    <color name="mau4">#d2cdd9</color>
+    <color name="mau5">#FFE7BA</color>
+    <color name="mau1a">#F0F8FF</color>
+    <color name="mau2a">#FF7F50</color>
+    <color name="mau3a">#008B8B</color>
+    <color name="mau4a">#A9A9A9</color>
+    <color name="mau5a">#ADFF2F</color>
+
+    <color name="mau6">#abab35</color>
+    <color name="mau7">#dadde9</color>
+    <color name="mau8">#41cf43</color>
+    <color name="mau10">#e0e0e9</color>
+    <color name="mau11">#97e0ff</color>
+    <color name="mau12">#8470FF</color>
+    <color name="mau6a">#FFE4B5</color>
+    <color name="mau7a">#FFA500</color>
+    <color name="mau8a">#D2B48C</color>
+    <color name="mau10a">#B0E0E6</color>
+    <color name="mau11a">#808000</color>
+    <color name="mau12a">#70fff8</color>
+
+    <color name="mau13">#519492</color>
+    <color name="mau14">#FFC1C1</color>
+    <color name="mau15">#FF6EB4</color>
+    <color name="mau16">#8A2BE2</color>
+    <color name="mau17">#DDC488</color>
+    <color name="mau18">#D8BFD8</color>
+    <color name="mau13a">#8B4513</color>
+    <color name="mau14a">#FFC1C1</color>
+    <color name="mau15a">#AFEEEE</color>
+    <color name="mau16a">#C71585</color>
+    <color name="mau17a">#DCDCDC</color>
+</resources>

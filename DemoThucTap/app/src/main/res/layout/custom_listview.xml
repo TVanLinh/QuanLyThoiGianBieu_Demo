@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="50px"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Lap trinh java wed Lap trinh java wed Lap trinh java wed Lap trinh java wed"
+        android:id="@+id/txtCongViec"
+        android:textSize="30px"
+        android:gravity="left"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/progressBar"
+        android:layout_margin="5px"/>
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="30"
+
+        android:id="@+id/progressBar"
+        android:layout_below="@+id/txtNgay"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="5px"
+        android:foreground="#f6b2b2"
+        android:indeterminate="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="20-10-2016->20-12-2016"
+        android:gravity="right"
+        android:textSize="30px"
+        android:id="@+id/txtNgay"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txtCongViec"
+        android:layout_toEndOf="@+id/txtCongViec"
+        android:layout_margin="5px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/txtPhanTram"
+        android:gravity="center"
+        android:layout_marginBottom="5px"
+        android:layout_below="@+id/progressBar"
+        android:textColor="#e73232"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/txtGio"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/progressBar"
+        android:layout_alignLeft="@+id/txtNgay"
+        android:layout_alignStart="@+id/txtNgay"
+        android:gravity="right"
+        android:textSize="25px"
+        android:layout_marginBottom="5px"/>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="350dp"
+              android:layout_height="150dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Vui lòng lựa chọn "
+        android:id="@+id/textView4"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textIsSelectable="true"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:id="@+id/xoaToDay"
+            android:text="Xóa tuần này"
+            android:layout_margin="5px"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:id="@+id/xoaALl"
+            android:text="Xóa tất cả các tuần"
+            android:layout_margin="5px"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:text="Xóa"
+            android:background="@drawable/custombutton"
+            android:id="@+id/btnXoa"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:text="Thoát"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/custombutton"
+            android:id="@+id/btnThoat"/>
+    </LinearLayout>
+</LinearLayout>

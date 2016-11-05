@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/taoMoi"
+          android:showAsAction="always|collapseActionView"
+          android:icon="@drawable/dangki"
+          android:title="@string/taoMoi"
+          tools:ignore="AppCompatResource"/>
+    <item android:id="@+id/timKiem"
+        android:title="@string/timKiem"
+          android:showAsAction="ifRoom|withText"
+          tools:ignore="AppCompatResource"/>
+    <item android:id="@+id/hoanThanh"
+          android:showAsAction="always|collapseActionView"
+          android:icon="@drawable/dangki"
+          android:title="@string/phanTram"
+          tools:ignore="AppCompatResource"/>
+    <!--item android:id="@+id/action_search"
+          android:orderInCategory="5"
+          android:title="@string/timKiem"
+          android:icon="@android:drawable/ic_menu_search"
+          app:showAsAction="ifRoom|collapseActionView"
+          app:actionViewClass="android.support.v7.widget.SearchView" /-->
+    <item
+        android:id="@+id/nextWeek"
+        app:showAsAction="ifRoom"
+        app:actionLayout="@layout/layout_menu"
+        android:title="Tuan tiep theo..." />
+</menu>

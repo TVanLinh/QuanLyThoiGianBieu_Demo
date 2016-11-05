@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="5px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nhập công việc"
+            android:id="@+id/textView5"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/edtCV"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnTim"
+        android:layout_width="80dp"
+        android:textAllCaps="false"
+        android:background="@drawable/custombutton"
+        android:textSize="20sp"
+        android:layout_height="40dp"
+        android:text="@string/tim"
+        android:layout_gravity="right"
+        android:layout_marginRight="10px"
+      />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_marginTop="10px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Ok men đi khong aknf asmand adjada djad  adjadad"
+            android:id="@+id/txtNoiDung"/>
+    </ScrollView>
+
+</LinearLayout>

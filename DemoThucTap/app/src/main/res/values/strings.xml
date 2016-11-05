@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quản lý thời gian biểu</string>
+    <string name="taoMoi">Tạo mới</string>
+    <string name="capNhat">Cập nhật</string>
+    <string name="timKiem">Tìm kiếm</string>
+    <string name="mainCapNhat">Cập nhật thông tin</string>
+    <string name="mainNhapThongTin">Tạo mới thông tin </string>
+    <string name="phanTram">Xem theo phần trăm</string>
+    <string name="phanTramTextView">Phần trăm</string>
+    <string name="danhSachCV">Danh sách theo phần trăm</string>
+    <string name="tim">Tìm</string>
+    <string name="title_activity_tim_kiem">Tìm kiếm công việc</string>
+</resources>

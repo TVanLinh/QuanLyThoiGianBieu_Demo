@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/annen"
+              android:weightSum="1"
+              android:gravity="center">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="2"
+        >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="27dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Chủ nhật"
+            android:id="@+id/txtThu"
+            android:layout_gravity="top"
+            android:textColor="@color/highlighted_text_material_light"
+            android:textStyle="italic"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="2"
+        style="3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Giờ :"
+            android:id="@+id/textView"
+            android:gravity="left|center"
+            android:textSize="20sp"
+            android:layout_weight="0.3"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/edtStartDate"
+            android:layout_weight="0.8"
+            android:textColorHint="@color/abc_btn_colored_borderless_text_material"
+            android:textIsSelectable="false"
+            android:hint="Bắt đầu"
+            android:textSize="15sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="đến"
+            android:id="@+id/textView2"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="0.1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/edtEndDate"
+            android:layout_weight="0.8"
+            android:textColorHint="@color/abc_btn_colored_borderless_text_material"
+            android:hint="Kết thúc"
+            android:textSize="15sp"
+            android:textStyle="italic"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="2"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Ngày :"
+            android:id="@+id/txt2"
+            android:gravity="left|center"
+            android:textSize="20sp"
+            android:layout_weight="0.6"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/edtStartDay"
+            android:layout_weight="0.7"
+            android:hint="Bắt đầu"
+            android:textColorHint="@color/abc_btn_colored_borderless_text_material"
+            android:textIsSelectable="false"
+            android:textSize="15sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="đến"
+            android:id="@+id/textView3"
+            android:gravity="center"
+            android:layout_weight="0.1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/edtEndDay"
+            android:layout_weight="0.7"
+            android:hint="Kết thúc"
+            android:textColorHint="@color/abc_btn_colored_borderless_text_material"
+            android:textSize="15sp"
+            android:textStyle="italic"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Công việc :"
+            android:id="@+id/txt4"
+            android:gravity="top|left|center"
+            android:layout_weight="0.2"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/edtCongViec"
+            android:lines="20"
+            android:layout_weight="1.8"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Lưu ý :"
+            android:id="@+id/txt5"
+            android:gravity="top|left|center"
+            android:layout_weight="0.4"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/edtLuuY"
+            android:layout_weight="1.6"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="Lưu"
+            android:id="@+id/btnSave"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/custombutton"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#fbfcfcfc"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="Thoát"
+            android:id="@+id/btnExit"
+            android:background="@drawable/custombutton"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#fbfcfcfc"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+</LinearLayout>
